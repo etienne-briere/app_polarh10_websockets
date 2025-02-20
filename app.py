@@ -2,7 +2,6 @@ import asyncio
 import streamlit as st
 import websockets
 from bleak import BleakClient, BleakScanner
-from PolarH10 import PolarH10
 from functools import partial
 
 # UUID du capteur cardiaque Polar H10
